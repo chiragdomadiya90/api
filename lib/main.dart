@@ -14,6 +14,7 @@ import 'dart:io';
 import 'Firebase/insert-update_delete/hive_ins_up_del.dart';
 import 'Getx/Getx_Api/home_scr.dart';
 import 'Localization/localization_screen.dart';
+import 'Rx_Stream_Demo/Stream_Api.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -35,7 +36,7 @@ class MyApp extends StatelessWidget {
           fallbackLocale: Locale('hi', 'IN'),
           debugShowCheckedModeBanner: false,
           theme: ThemeData(),
-          home: SharePlus());
+          home: ShoppingHomeScr());
     });
   }
 }
